@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  background-color: #1b2a41;
+}
+
+body {
+  margin: 0;
+}
+
+.input {
+  display: block;
+  margin: 2rem;
+  border-radius: 4px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.input label {
+  font-weight: bold;
+  margin: 0.5rem;
+  border-radius: 4px;
+}
+
+.input input {
+  font: inherit;
+  width: 97%;
+  border: 1px solid #ccc;
+  padding: 0.15rem;
+  margin: 0.5rem;
+  border-radius: 4px;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #ee6352;
+}
+
+.buttonAdd {
+  display: flex;
+  justify-content: flex-end;
+}
